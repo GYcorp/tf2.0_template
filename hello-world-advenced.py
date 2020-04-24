@@ -3,7 +3,7 @@ import tensorflow as tf
 
 from tensorflow.keras.layers import Dense, Flatten, Conv2D
 from tensorflow.keras import Model
-
+################################## 지하철 타고 서울역에 내려 남대문 지나 시청앞 호수대 무더위를 식혀줄 시원한 물줄기 덕수궁
 log_dir = "./"
 # 주석 주석 JSJ
 dataset, info = tfds.load('mnist', with_info=True, as_supervised=True)
