@@ -13,7 +13,8 @@ def convert_types(image, label):
     image = tf.cast(image, tf.float32)
     image /= 255
     return image, label
-
+    
+# 우재현 주석 
 mnist_train = mnist_train.map(convert_types).shuffle(10000).batch(32)
 mnist_test = mnist_test.map(convert_types).batch(32)
 
