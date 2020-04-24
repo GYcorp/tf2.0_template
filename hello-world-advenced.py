@@ -5,7 +5,7 @@ from tensorflow.keras.layers import Dense, Flatten, Conv2D
 from tensorflow.keras import Model
 
 log_dir = "./"
-
+# 주석 주석 JSJ
 dataset, info = tfds.load('mnist', with_info=True, as_supervised=True)
 mnist_train, mnist_test = dataset['train'], dataset['test']
 
